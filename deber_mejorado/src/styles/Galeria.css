@@ -2,12 +2,13 @@
 .galeria {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
 }
 
 .galeria_item {
   text-align: center;
-  margin: 0 90px;
+  margin: 0 210px;
   border: 1px solid black;
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.3);

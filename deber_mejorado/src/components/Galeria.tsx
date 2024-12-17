@@ -1,4 +1,6 @@
 import "../styles/Galeria.css";
+import ufcimg from "../imagenes/ufc.jpg";
+import boximg from "../imagenes/images.jpg";
 
 function Galeria() {
   return (
@@ -12,12 +14,16 @@ function Galeria() {
             <p>BMX</p>
           </div>
           <div className="galeria_item">
-            <img src="./assets/ufc.jpg" />
+            <img src={ufcimg} />
             <p>UFC</p>
           </div>
           <div className="galeria_item">
             <img src="./assets/fut.jpg" />
             <p>FUTBOL</p>
+          </div>
+          <div className="galeria_item">
+            <img src={boximg} />
+            <p>BOX</p>
           </div>
         </div>
       </section>
