@@ -1,0 +1,16 @@
+/* secciones */
+.section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section h2 {
+  color: #1ecceb;
+}
+
+/* lista */
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 20px;
+}

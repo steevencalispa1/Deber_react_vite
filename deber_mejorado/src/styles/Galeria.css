@@ -1,0 +1,21 @@
+/* Galeria */
+.galeria {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.galeria_item {
+  text-align: center;
+  margin: 0 90px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.galeria_item img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
